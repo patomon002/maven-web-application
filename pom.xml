@@ -28,6 +28,14 @@
 
 	</properties>
 
+	<repositories>
+		<repository>
+			<id>nexus</id>
+			<name>Maven proxy Repp</name>
+			<url>http://34.70.187.93:8081/repository/Mave_Repo/</url>
+		</repository>
+	</repositories>
+
 	<dependencies>
 		
 		<dependency>
@@ -96,13 +104,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://35.225.50.247:8081/repository/Maven-Web-Apps-Release/</url>
+	      <url>http://34.70.187.93:8081/repository/Maven-Web-Apps-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://35.225.50.247:8081/repository/Web-App-Snapshot/</url>
+	      <url>http://34.70.187.93:8081/repository/Web-App-Snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
