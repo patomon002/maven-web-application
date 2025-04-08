@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://86.31.198.180:9000</sonar.host.url>
+		<sonar.host.url>http://192.168.1.66:9000</sonar.host.url>
 		<sonar.login>sqa_e809b8be10870cfb1b3f8336a235b2ac66180cc1</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
@@ -32,7 +32,7 @@
 		<repository>
 			<id>nexus</id>
 			<name>Maven proxy Repp</name>
-			<url>http://34.70.187.93:8081/repository/Mave_Repo/</url>
+			<url>http://192.168.1.126:8081/repository/maven-central/</url>
 		</repository>
 	</repositories>
 
@@ -104,7 +104,7 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://34.70.187.93:8081/repository/Maven-Web-Apps-Release/</url>
+	      <url>http://192.168.1.126:8081/repository/Build-Release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
