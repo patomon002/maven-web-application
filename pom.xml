@@ -22,7 +22,7 @@
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
 		<sonar.host.url>http://192.168.1.66:9000</sonar.host.url>
-		<sonar.login>sqa_e809b8be10870cfb1b3f8336a235b2ac66180cc1</sonar.login>
+		<sonar.login>squ_e0b661fc0a959744c6d8bf5e18d382f591df5514</sonar.login>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -110,7 +110,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://34.70.187.93:8081/repository/Web-App-Snapshot/</url>
+	      <url>http://192.168.1.126:8081/repository/Build-Snapshot//</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
